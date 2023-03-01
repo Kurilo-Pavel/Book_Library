@@ -1,0 +1,27 @@
+.table {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main__row {
+  display: grid;
+  grid-template-columns: 1fr 4fr 3fr 2fr;
+  margin: 0 1rem;
+  box-sizing: border-box;
+}
+
+.table__column {
+  border: 1px solid black;
+}
+.book__row{
+  margin: .2rem 1rem;
+}
+.book__column{
+  border: 1px solid grey;
+  padding: .5rem 0;
+}
+.book__select{
+  background: lightgray;
+}

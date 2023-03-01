@@ -1,0 +1,9 @@
+.header{
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+}
